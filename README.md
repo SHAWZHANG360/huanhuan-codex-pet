@@ -2,7 +2,7 @@
 
 一只安静、专注的灰蓝色像素小生命，为 Codex 桌面宠物设计。
 
-![缓缓动画预览](assets/huanhuan-preview.gif)
+![缓缓动画预览](huanhuan-preview.gif)
 
 不设定物种，不强调四肢。用不规则的阶梯轮廓、两道眼睛，以及轻微的伸缩和摆动表现生命力。
 
@@ -15,7 +15,7 @@
 
 ## 安装
 
-下载仓库，将 `pet` 文件夹中的 `pet.json` 和 `spritesheet.webp` 放入 `$CODEX_HOME/pets/huanhuan/`。
+下载仓库，将仓库根目录中的 `pet.json` 和 `spritesheet.webp` 放入 `$CODEX_HOME/pets/huanhuan/`。
 
 未设置 `CODEX_HOME` 时，通常使用用户目录下的 `.codex/pets/huanhuan/`；Windows 对应 `%USERPROFILE%\.codex\pets\huanhuan\`。
 
@@ -23,9 +23,9 @@
 
 ## 文件
 
-- `pet/`：可安装的宠物文件。
-- `assets/`：形象、组合动画预览及概念草图。
-- `animations/`：九组独立动作的 GIF 预览。
-- `docs/design.md`：设计说明。
+- `pet.json`、`spritesheet.webp`：可安装的宠物文件。
+- `huanhuan.png`、`huanhuan-preview.gif`、`abstract-pet-concepts.png`：形象与设计预览。
+- 其余九个 GIF：独立动作预览。
+- [design.md](design.md)：设计说明。
 
 设计与动画素材由 AI 辅助生成，并经过人工选择和迭代。Claude 的简洁像素表现是风格参考，本项目为独立的个人设计，与 Anthropic 或 OpenAI 无隶属关系。
